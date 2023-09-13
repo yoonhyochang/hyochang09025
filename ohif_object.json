@@ -1,0 +1,379 @@
+{
+    "_vrMap": {},
+    "SpecificCharacterSet": "ISO_IR 192",
+    "SOPClassUID": "1.2.840.10008.5.1.4.1.1.88.22",
+    "SOPInstanceUID": "2.25.129368126484177247906665114982578362508",
+    "StudyDate": "20210602",
+    "SeriesDate": "20230816",
+    "ContentDate": "20230816",
+    "StudyTime": "121014.031000",
+    "SeriesTime": "064755",
+    "ContentTime": "064755",
+    "AccessionNumber": "0002598612943543",
+    "Modality": "SR",
+    "Manufacturer": "Unspecified",
+    "ReferringPhysicianName": "[object Object]",
+    "CodingSchemeIdentificationSequence": [
+        {
+            "_vrMap": {},
+            "CodingSchemeDesignator": "99dcmjs",
+            "CodingSchemeVersion": "0",
+            "CodingSchemeName": "Codes used for dcmjs",
+            "CodingSchemeResponsibleOrganization": "https://github.com/dcmjs-org/dcmjs"
+        }
+    ],
+    "SeriesDescription": "test",
+    "ManufacturerModelName": "Unspecified",
+    "ReferencedPerformedProcedureStepSequence": [],
+    "PatientName": "",
+    "PatientID": "00025986",
+    "PatientBirthDate": "19900512",
+    "PatientSex": "M",
+    "PatientAge": "31Y ",
+    "DeviceSerialNumber": "1",
+    "SoftwareVersions": "0",
+    "ContentQualification": "RESEARCH",
+    "StudyInstanceUID": "1.400.20.81.610.0002598612943543",
+    "SeriesInstanceUID": "2.25.988473356268693255257822887492314884807",
+    "StudyID": "RG5012",
+    "SeriesNumber": 4701,
+    "InstanceNumber": 1,
+    "ImageComments": "NOT FOR CLINICAL USE",
+    "ValueType": "CONTAINER",
+    "ConceptNameCodeSequence": [
+        {
+            "_vrMap": {},
+            "CodeValue": "126000",
+            "CodingSchemeDesignator": "DCM",
+            "CodeMeaning": "Imaging Measurement Report"
+        }
+    ],
+    "ContinuityOfContent": "SEPARATE",
+    "PerformedProcedureCodeSequence": [],
+    "CurrentRequestedProcedureEvidenceSequence": [
+        {
+            "_vrMap": {},
+            "ReferencedSeriesSequence": [
+                {
+                    "_vrMap": {},
+                    "ReferencedSOPSequence": [
+                        {
+                            "_vrMap": {},
+                            "ReferencedSOPClassUID": "1.2.840.10008.5.1.4.1.1.1.1",
+                            "ReferencedSOPInstanceUID": "1.3.46.670589.30.1.6.1.1625523293.1622603492578.2"
+                        }
+                    ],
+                    "SeriesInstanceUID": "1.3.46.670589.30.1.6.1.1625523293.1622603492578.3"
+                }
+            ],
+            "StudyInstanceUID": "1.400.20.81.610.0002598612943543"
+        }
+    ],
+    "CompletionFlag": "COMPLETE",
+    "VerificationFlag": "UNVERIFIED",
+    "ContentTemplateSequence": [
+        {
+            "_vrMap": {},
+            "MappingResource": "DCMR",
+            "TemplateIdentifier": "1500"
+        }
+    ],
+    "ContentSequence": [
+        {
+            "_vrMap": {},
+            "RelationshipType": "HAS CONCEPT MOD",
+            "ValueType": "CODE",
+            "ConceptNameCodeSequence": [
+                {
+                    "_vrMap": {},
+                    "CodeValue": "121049",
+                    "CodingSchemeDesignator": "DCM",
+                    "CodeMeaning": "Language of Content Item and Descendants"
+                }
+            ],
+            "ConceptCodeSequence": [
+                {
+                    "_vrMap": {},
+                    "CodeValue": "eng",
+                    "CodingSchemeDesignator": "RFC5646",
+                    "CodeMeaning": "English"
+                }
+            ],
+            "ContentSequence": [
+                {
+                    "_vrMap": {},
+                    "RelationshipType": "HAS CONCEPT MOD",
+                    "ValueType": "CODE",
+                    "ConceptNameCodeSequence": [
+                        {
+                            "_vrMap": {},
+                            "CodeValue": "121046",
+                            "CodingSchemeDesignator": "DCM",
+                            "CodeMeaning": "Country of Language"
+                        }
+                    ],
+                    "ConceptCodeSequence": [
+                        {
+                            "_vrMap": {},
+                            "CodeValue": "US",
+                            "CodingSchemeDesignator": "ISO3166_1",
+                            "CodeMeaning": "United States"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "_vrMap": {},
+            "RelationshipType": "HAS OBS CONTEXT",
+            "ValueType": "PNAME",
+            "ConceptNameCodeSequence": [
+                {
+                    "_vrMap": {},
+                    "CodeValue": "121008",
+                    "CodingSchemeDesignator": "DCM",
+                    "CodeMeaning": "Person Observer Name"
+                }
+            ],
+            "PersonName": "unknown^unknown"
+        },
+        {
+            "_vrMap": {},
+            "RelationshipType": "HAS CONCEPT MOD",
+            "ValueType": "CODE",
+            "ConceptNameCodeSequence": [
+                {
+                    "_vrMap": {},
+                    "CodeValue": "121058",
+                    "CodingSchemeDesignator": "DCM",
+                    "CodeMeaning": "Procedure reported"
+                }
+            ],
+            "ConceptCodeSequence": [
+                {
+                    "_vrMap": {},
+                    "CodeValue": "1",
+                    "CodingSchemeDesignator": "99dcmjs",
+                    "CodeMeaning": "Unknown procedure"
+                }
+            ]
+        },
+        {
+            "_vrMap": {},
+            "RelationshipType": "CONTAINS",
+            "ValueType": "CONTAINER",
+            "ConceptNameCodeSequence": [
+                {
+                    "_vrMap": {},
+                    "CodeValue": "111028",
+                    "CodingSchemeDesignator": "DCM",
+                    "CodeMeaning": "Image Library"
+                }
+            ],
+            "ContinuityOfContent": "SEPARATE",
+            "ContentSequence": [
+                {
+                    "_vrMap": {},
+                    "RelationshipType": "CONTAINS",
+                    "ValueType": "CONTAINER",
+                    "ConceptNameCodeSequence": [
+                        {
+                            "_vrMap": {},
+                            "CodeValue": "126200",
+                            "CodingSchemeDesignator": "DCM",
+                            "CodeMeaning": "Image Library Group"
+                        }
+                    ],
+                    "ContinuityOfContent": "SEPARATE",
+                    "ContentSequence": [
+                        {
+                            "_vrMap": {},
+                            "ReferencedSOPSequence": [
+                                {
+                                    "_vrMap": {},
+                                    "ReferencedSOPClassUID": "1.2.840.10008.5.1.4.1.1.1.1",
+                                    "ReferencedSOPInstanceUID": "1.3.46.670589.30.1.6.1.1625523293.1622603492578.2"
+                                }
+                            ],
+                            "RelationshipType": "CONTAINS",
+                            "ValueType": "IMAGE"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "_vrMap": {},
+            "RelationshipType": "CONTAINS",
+            "ValueType": "CONTAINER",
+            "ConceptNameCodeSequence": [
+                {
+                    "_vrMap": {},
+                    "CodeValue": "126010",
+                    "CodingSchemeDesignator": "DCM",
+                    "CodeMeaning": "Imaging Measurements"
+                }
+            ],
+            "ContinuityOfContent": "SEPARATE",
+            "ContentSequence": [
+                {
+                    "_vrMap": {},
+                    "RelationshipType": "CONTAINS",
+                    "ValueType": "CONTAINER",
+                    "ConceptNameCodeSequence": [
+                        {
+                            "_vrMap": {},
+                            "CodeValue": "125007",
+                            "CodingSchemeDesignator": "DCM",
+                            "CodeMeaning": "Measurement Group"
+                        }
+                    ],
+                    "ContinuityOfContent": "SEPARATE",
+                    "ContentSequence": [
+                        {
+                            "_vrMap": {},
+                            "RelationshipType": "HAS OBS CONTEXT",
+                            "ValueType": "TEXT",
+                            "ConceptNameCodeSequence": [
+                                {
+                                    "_vrMap": {},
+                                    "CodeValue": "112039",
+                                    "CodingSchemeDesignator": "DCM",
+                                    "CodeMeaning": "Tracking Identifier"
+                                }
+                            ],
+                            "TextValue": "Cornerstone3DTools@^0.1.0:CircleROI"
+                        },
+                        {
+                            "_vrMap": {},
+                            "RelationshipType": "HAS OBS CONTEXT",
+                            "ValueType": "UIDREF",
+                            "ConceptNameCodeSequence": [
+                                {
+                                    "_vrMap": {},
+                                    "CodeValue": "112040",
+                                    "CodingSchemeDesignator": "DCM",
+                                    "CodeMeaning": "Tracking Unique Identifier"
+                                }
+                            ],
+                            "UID": "2.25.162901085353849597349597215256188557537"
+                        },
+                        {
+                            "_vrMap": {},
+                            "RelationshipType": "CONTAINS",
+                            "ValueType": "NUM",
+                            "ConceptNameCodeSequence": [
+                                {
+                                    "_vrMap": {},
+                                    "CodeValue": "G-A197",
+                                    "CodingSchemeDesignator": "SRT",
+                                    "CodeMeaning": "Perimeter"
+                                }
+                            ],
+                            "MeasuredValueSequence": [
+                                {
+                                    "_vrMap": {},
+                                    "MeasurementUnitsCodeSequence": [
+                                        {
+                                            "_vrMap": {},
+                                            "CodeValue": "mm",
+                                            "CodingSchemeDesignator": "UCUM",
+                                            "CodingSchemeVersion": "1.4",
+                                            "CodeMeaning": "millimeter"
+                                        }
+                                    ],
+                                    "NumericValue": 240.7267901156
+                                }
+                            ],
+                            "ContentSequence": [
+                                {
+                                    "_vrMap": {},
+                                    "RelationshipType": "INFERRED FROM",
+                                    "ValueType": "SCOORD",
+                                    "ContentSequence": [
+                                        {
+                                            "_vrMap": {},
+                                            "ReferencedSOPSequence": [
+                                                {
+                                                    "_vrMap": {},
+                                                    "ReferencedSOPClassUID": "1.2.840.10008.5.1.4.1.1.1.1",
+                                                    "ReferencedSOPInstanceUID": "1.3.46.670589.30.1.6.1.1625523293.1622603492578.2"
+                                                }
+                                            ],
+                                            "RelationshipType": "SELECTED FROM",
+                                            "ValueType": "IMAGE"
+                                        }
+                                    ],
+                                    "GraphicData": [
+                                        605.5380249023438,
+                                        484.96356201171875,
+                                        764.504638671875,
+                                        687.28466796875
+                                    ],
+                                    "GraphicType": "CIRCLE"
+                                }
+                            ]
+                        },
+                        {
+                            "_vrMap": {},
+                            "RelationshipType": "CONTAINS",
+                            "ValueType": "NUM",
+                            "ConceptNameCodeSequence": [
+                                {
+                                    "_vrMap": {},
+                                    "CodeValue": "G-A166",
+                                    "CodingSchemeDesignator": "SRT",
+                                    "CodeMeaning": "Area"
+                                }
+                            ],
+                            "MeasuredValueSequence": [
+                                {
+                                    "_vrMap": {},
+                                    "MeasurementUnitsCodeSequence": [
+                                        {
+                                            "_vrMap": {},
+                                            "CodeValue": "mm2",
+                                            "CodingSchemeDesignator": "UCUM",
+                                            "CodingSchemeVersion": "1.4",
+                                            "CodeMeaning": "SquareMilliMeter"
+                                        }
+                                    ],
+                                    "NumericValue": 4611.46573324388
+                                }
+                            ],
+                            "ContentSequence": [
+                                {
+                                    "_vrMap": {},
+                                    "RelationshipType": "INFERRED FROM",
+                                    "ValueType": "SCOORD",
+                                    "ContentSequence": [
+                                        {
+                                            "_vrMap": {},
+                                            "ReferencedSOPSequence": [
+                                                {
+                                                    "_vrMap": {},
+                                                    "ReferencedSOPClassUID": "1.2.840.10008.5.1.4.1.1.1.1",
+                                                    "ReferencedSOPInstanceUID": "1.3.46.670589.30.1.6.1.1625523293.1622603492578.2"
+                                                }
+                                            ],
+                                            "RelationshipType": "SELECTED FROM",
+                                            "ValueType": "IMAGE"
+                                        }
+                                    ],
+                                    "GraphicData": [
+                                        605.5380249023438,
+                                        484.96356201171875,
+                                        764.504638671875,
+                                        687.28466796875
+                                    ],
+                                    "GraphicType": "CIRCLE"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
+
